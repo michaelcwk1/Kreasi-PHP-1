@@ -169,7 +169,7 @@
 
         }
         .content:target {
-        scroll-margin-top: 100px; /
+        scroll-margin-top: 10zz0px; /
        
     }
 
