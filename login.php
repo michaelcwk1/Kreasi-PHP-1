@@ -7,10 +7,11 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            /* background-image: url(https://https://png.pngtree.com/background/20210716/original/pngtree-simple-green-landscape-abstract-wedding-background-picture-image_1375473.jpg); */
+            background-image: url(https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg);
+            background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            background-color: green;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
             display: flex;
@@ -19,7 +20,8 @@
             height: 100vh;
         }
         .login-container {
-            background-color: #fff;
+            background-color:  white;
+            background-image: url(https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg);
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -45,8 +47,8 @@
             box-sizing: border-box;
         }
         .login-container form input[type="submit"] {
-            background-color: black;
-            color: white;
+            background-color: transparent;
+            color: black;
             border: none;
             padding: 10px 20px;
             text-align: center;
@@ -62,11 +64,11 @@
 
         }
         .login-container form input[type="submit"]:hover {
-            background-color: gray;
+            background-color: white;
         }
 
         .back-link{
-            background-color: black;
+            background-color: transparent;
             text-align: center;
             color: white;
             padding: 10px 20px;
@@ -85,12 +87,12 @@
 
 
         .back-link:hover{
-            background-color: gray;
+            background-color: white;
 
         }
 
        .back-link a{
-            color: white;
+            color: black;
             text-decoration: none;
             display: block;
             width: 100%;
