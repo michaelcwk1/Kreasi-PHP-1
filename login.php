@@ -7,10 +7,10 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            background-image: url(https://https://png.pngtree.com/background/20210716/original/pngtree-simple-green-landscape-abstract-wedding-background-picture-image_1375473.jpg);
+            /* background-image: url(https://https://png.pngtree.com/background/20210716/original/pngtree-simple-green-landscape-abstract-wedding-background-picture-image_1375473.jpg); */
             background-position: center;
             background-repeat: no-repeat;
-            background-color: #f4f4f4;
+            background-color: green;
             margin: 0;
             padding: 0;
             display: flex;
