@@ -7,7 +7,7 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            background-image: url(https://hd.wallpaperswide.com/thumbs/black_background_hole_dirty-t2.jpg);
+            background-image: url(https://hd.wallpaperswide.https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-mint-gradient-abstract-watercolor-painting-on-canvas-vibrant-green-colors-and-image_13685106.png);
             background-size: 165%;
             background-position: center;
             background-repeat: no-repeat;
