@@ -7,8 +7,7 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            background-image: url(https://hd.wallpaperswide.https://png.pngtree.com/thumb_back/fw800/background/20231016/pngtree-mint-gradient-abstract-watercolor-painting-on-canvas-vibrant-green-colors-and-image_13685106.png);
-            background-size: 165%;
+            background-image: url(https://https://png.pngtree.com/background/20210716/original/pngtree-simple-green-landscape-abstract-wedding-background-picture-image_1375473.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-color: #f4f4f4;
