@@ -11,10 +11,13 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url(https://cdn5.f-cdn.com/contestentries/1372733/27251768/5b4e16f665aaf_thumb900.jpg);
+            background-size: cover;
+            background-position: center;
         }
         
-        .footer {
-            background-color: #333;
+        /* .footer {
+            background-color: transparent;
             color: #fff;
             padding: 0px;
             text-align: center;
@@ -23,7 +26,7 @@
             left: 0;
             width: calc(100% - -100px);
             box-sizing: border-box;
-        }
+        } */
         
         .sidebar {
             background-color: #646161;
@@ -207,10 +210,10 @@
         </tbody>
       </table>
     </div>
-    <div class="footer">
+    <!-- <div class="footer">
       <p>Footer</p>
     </div>
-  </div>
+  </div> -->
 
   
 
