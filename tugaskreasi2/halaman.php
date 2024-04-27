@@ -11,7 +11,8 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
+                        background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
+
             background-size: cover;
             background-position: center;
         }
@@ -29,8 +30,8 @@
         } */
         
         .sidebar {
-            background-color: #646161;
-            color: #fff;
+            background-color: #e6e6fa;
+            color: #333;
             width: 200px;
             height: 100%;
             position: fixed;
@@ -57,7 +58,8 @@
             position: relative;
             top: 90px;
             left: 35px;
-            color: #fff;
+            color: #333;
+
             text-decoration: none;
             padding: 10px;
             /* border-bottom: 1px solid #444; */
@@ -70,8 +72,8 @@
         }
 
         .header {
-            background-color: #333;
-            color: #fff;
+            background-color: #d8bfd8;
+            color: #333;
             padding: 20px;
             text-align: center;
             position: fixed;
@@ -123,7 +125,7 @@
         }
 
         .sidebar a:hover {
-            background-color: #444;
+            background-color: #d8bfd8;
         }
 
         .sidebar h3 {
