@@ -7,7 +7,7 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            background-image: url(tree_and_mountain_landscape_3107.jpg);
+            background-image: url(jpg/tree_and_mountain_landscape_3107.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -21,7 +21,7 @@
         }
         .login-container {
             background-color:  white;
-            background-image: url(https://cdn5.f-cdn.com/contestentries/1578585/21468461/5d62b49ac544b_thumb900.jpg);
+            background-image: url(jpg/tree_and_mountain_landscape_3107.jpg);
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
