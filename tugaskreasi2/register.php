@@ -106,14 +106,46 @@
             text-decoration: none;
             cursor: pointer;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-            margin-top: 10px;
+            margin-bottom: 10px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             /* font-weight: 800; */
         }
         
-        .back-link button:hover {
+        .back-link button:hover   {
             background-color: black;
             opacity: 0.3;
+        }
+        .back-link a {
+            background-color: transparent;
+            text-align: left;
+            color: white;
+            font-size: medium;
+            padding: 5px 10px;
+            margin: 4px 2px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-top: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .back-link a {
+            color: #F5D8FB;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
+            text-decoration: none;
+            display: flex;
+            width: 25%;
+            /* height: 200%; */
+            
+        }
+
+        .back-link a:hover{
+            background-color: black;
+            opacity: 0.3;
+
         }
         
         .back-link button {
@@ -160,6 +192,8 @@
             
             <div class="back-link">
                 <button id="registerBtn">Registrasi</button>
+                <a href="login.php" name="kembali">Kembali</a>
+
             </div>
             
             
