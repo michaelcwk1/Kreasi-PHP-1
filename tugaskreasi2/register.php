@@ -165,7 +165,7 @@
             
         </form>
     </div>
-    <script src="regis.js" defer></script>
+    <script src="jsnya/regis.js" defer></script>
 </body>
 
 </html>
