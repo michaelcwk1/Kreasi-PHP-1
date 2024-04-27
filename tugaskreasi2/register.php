@@ -1,11 +1,11 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registrasi</title>
+    <script src="jsnya/regis.js" defer></script>
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
@@ -22,7 +22,7 @@
             height: 100vh;
         }
 
-        .login-container {
+        .register-container {
             background-color: white;
             background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
             padding: 20px;
@@ -31,21 +31,23 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 300px;
             display: flex;
+            align-items: center;
             flex-direction: column;
         }
 
-        .login-container h2 {
+        .register-container h2 {
             text-align: center;
         }
 
-        .login-container form {
+        .register-container form {
             margin-top: 20px;
             display: flex;
             flex-direction: column;
+            width: 100%;
         }
 
-        .login-container form input[type="text"],
-        .login-container form input[type="password"] {
+        .register-container form input[type="text"],
+        .register-container form input[type="password"] {
             background-color: rgba(230, 230, 255);
             /* Ungu muda terang dengan opacity 0.8 */
             width: 100%;
@@ -57,7 +59,7 @@
 
         }
 
-        .login-container form input[type="submit"] {
+        .register-container form input[type="submit"] {
             background-color: transparent;
             color: #F5D8FB;
             font-family: 'Montserrat', sans-serif;
@@ -77,37 +79,44 @@
 
         }
 
-        .login-container form input[type="submit"]:hover {
-            background-color: black;
-            opacity: 0.3;
-        }
-
-        .back-link {
-            background-color: transparent;
-            text-align: center;
-            color: white;
-            padding: 10px 20px;
-            display: inline-block;
-            margin: 4px 2px;
-            border: none;
-            border-radius: 80px;
+        .form label {
+            color: black;
+            Font-family: Segoe UI;
+            font-weight: 800;
             text-decoration: none;
-            cursor: pointer;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-            margin-top: 10px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+            display: block;
+            width: 100%;
+            height: 100%;
 
         }
 
-
-        .back-link:hover {
+        .register-container form input[type="submit"]:hover {
             background-color: black;
             opacity: 0.3;
-
         }
 
-        .back-link a {
+        .back-link button {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    border: none;
+    border-radius: 80px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.back-link button:hover {
+    background-color: black;
+    opacity: 0.3;
+}
+
+        .back-link button {
             color: #F5D8FB;
             font-family: 'Montserrat', sans-serif;
             font-weight: 800;
@@ -119,26 +128,45 @@
         }
 
         h2 {
-            font-family:Segoe UI;
+            font-family: Segoe UI;
 
         }
+
+        
     </style>
 </head>
 
 <body>
+    <div class="register-container">
+        <h2>FORM REGISTRASI</h2>
+        <!-- <?php if (isset($login['error'])) : ?>
+            <p style="color:red; font-style: italic;"><?= $login['pesan']; ?></p>
+        <?php endif; ?> -->
+        <form action="" method="POST">
+            <div class="form">
+                <label>
+                    Username :
+                    <input type="text" name="username" autofocus autocomplete="off" placeholder="Username" required>
+                </label>
 
-    <div class="login-container">
-        <h2>LOGIN</h2>
-        <form action="halaman.php" method="post">
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" value="Login">
+                <label>
+                    Password :
+                    <input type="password" name="password1" placeholder="Password" required>
+                </label>
+
+                <label>
+                    Konfirmasi Password :
+                    <input type="password" name="password2" placeholder="Konfirmasi Password" required>
+                </label>
+            </div>
+
+            <div class="back-link">
+                <button id="submitBtn">Registrasi</button>
+            </div>
+
+
         </form>
-        <div class="back-link">
-            <a href="register.php" type="checkbox">Register</a>
-        </div>
     </div>
-
 </body>
 
 </html>
