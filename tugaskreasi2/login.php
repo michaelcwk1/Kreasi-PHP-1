@@ -134,7 +134,7 @@
             <input type="submit" value="Login">
         </form>
         <div class="back-link">
-            <a href="halaman.php" type="checkbox">Back</a>
+            <a href="halaman.php" type="checkbox">Register</a>
         </div>
     </div>
 
