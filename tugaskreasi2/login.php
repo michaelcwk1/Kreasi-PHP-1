@@ -8,7 +8,7 @@
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
-            background-image: url(jpg/tree_and_mountain_landscape_3107.jpg);
+            background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 
         .login-container {
             background-color: white;
-            background-image: url(jpg/tree_and_mountain_landscape_3107.jpg);
+            background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
             padding: 20px;
             background-size: cover;
             border-radius: 5px;
@@ -77,7 +77,8 @@
         }
 
         .login-container form input[type="submit"]:hover {
-            background-color: #DDB7E5;
+            background-color: black;
+            opacity: 0.3;
         }
 
         .back-link {
@@ -100,7 +101,8 @@
 
 
         .back-link:hover {
-            background-color: #DDB7E5;
+            background-color: black;
+            opacity: 0.3;
 
         }
 
