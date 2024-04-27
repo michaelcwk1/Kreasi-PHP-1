@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,36 +20,47 @@
             align-items: center;
             height: 100vh;
         }
+
         .login-container {
-            background-color:  white;
+            background-color: white;
             background-image: url(jpg/tree_and_mountain_landscape_3107.jpg);
             padding: 20px;
+            background-size: cover;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             width: 300px;
             display: flex;
             flex-direction: column;
         }
+
         .login-container h2 {
             text-align: center;
         }
+
         .login-container form {
             margin-top: 20px;
             display: flex;
             flex-direction: column;
         }
+
         .login-container form input[type="text"],
         .login-container form input[type="password"] {
+            background-color: rgba(230, 230, 255);
+            /* Ungu muda terang dengan opacity 0.8 */
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 3px;
             box-sizing: border-box;
+
         }
+
         .login-container form input[type="submit"] {
             background-color: transparent;
-            color: black;
+            color: #F5D8FB;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
             border: none;
             padding: 10px 20px;
             text-align: center;
@@ -57,17 +69,18 @@
             font-size: 16px;
             margin: 4px 2px;
             cursor: pointer;
-            border-radius: 4px;
+            border-radius: 80px;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
             margin-top: 10px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 
         }
+
         .login-container form input[type="submit"]:hover {
-            background-color: white;
+            background-color: #DDB7E5;
         }
 
-        .back-link{
+        .back-link {
             background-color: transparent;
             text-align: center;
             color: white;
@@ -75,7 +88,7 @@
             display: inline-block;
             margin: 4px 2px;
             border: none;
-            border-radius: 4px;
+            border-radius: 80px;
             text-decoration: none;
             cursor: pointer;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
@@ -86,13 +99,15 @@
         }
 
 
-        .back-link:hover{
-            background-color: white;
+        .back-link:hover {
+            background-color: #DDB7E5;
 
         }
 
-       .back-link a{
-            color: black;
+        .back-link a {
+            color: #F5D8FB;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 800;
             text-decoration: none;
             display: block;
             width: 100%;
@@ -100,25 +115,27 @@
 
         }
 
-        h2{
+        h2 {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
         }
     </style>
 </head>
+
 <body>
 
-<div class="login-container">
-    <h2>Login</h2>
-    <form action="halaman.php" method="post">
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Login" >
-    </form>
-    <div class="back-link">
-        <a href="halaman.php" type="checkbox">Back</a>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="halaman.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="submit" value="Login">
+        </form>
+        <div class="back-link">
+            <a href="halaman.php" type="checkbox">Back</a>
+        </div>
     </div>
-</div>
 
 </body>
+
 </html>
