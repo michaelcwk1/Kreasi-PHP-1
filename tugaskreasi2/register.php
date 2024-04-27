@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrasi</title>
-    <script src="jsnya/regis.js" defer></script>
     <style type="text/css">
         body {
             font-family: Arial, sans-serif;
@@ -21,7 +20,7 @@
             align-items: center;
             height: 100vh;
         }
-
+        
         .register-container {
             background-color: white;
             background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
@@ -34,11 +33,11 @@
             align-items: center;
             flex-direction: column;
         }
-
+        
         .register-container h2 {
             text-align: center;
         }
-
+        
         .register-container form {
             margin-top: 20px;
             display: flex;
@@ -56,9 +55,9 @@
             border: 1px solid #ccc;
             border-radius: 3px;
             box-sizing: border-box;
-
+            
         }
-
+        
         .register-container form input[type="submit"] {
             background-color: transparent;
             color: #F5D8FB;
@@ -76,7 +75,7 @@
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
             margin-top: 10px;
             /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-
+            
         }
 
         .form label {
@@ -87,35 +86,36 @@
             display: block;
             width: 100%;
             height: 100%;
-
+            
         }
-
+        
         .register-container form input[type="submit"]:hover {
             background-color: black;
             opacity: 0.3;
         }
 
         .back-link button {
-    background-color: transparent;
-    text-align: center;
-    color: white;
-    padding: 10px 20px;
-    margin: 4px 2px;
-    border: none;
-    border-radius: 80px;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-top: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 800;
-}
-
-.back-link button:hover {
-    background-color: black;
-    opacity: 0.3;
-}
-
+            background-color: transparent;
+            text-align: center;
+            color: white;
+            font-size: medium;
+            padding: 15px 25px;
+            margin: 4px 2px;
+            border: none;
+            border-radius: 80px;
+            text-decoration: none;
+            cursor: pointer;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+            margin-top: 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            /* font-weight: 800; */
+        }
+        
+        .back-link button:hover {
+            background-color: black;
+            opacity: 0.3;
+        }
+        
         .back-link button {
             color: #F5D8FB;
             font-family: 'Montserrat', sans-serif;
@@ -124,16 +124,14 @@
             display: block;
             width: 100%;
             height: 100%;
-
+            
         }
-
+        
         h2 {
             font-family: Segoe UI;
-
+            
         }
-
-        
-    </style>
+        </style>
 </head>
 
 <body>
@@ -148,25 +146,26 @@
                     Username :
                     <input type="text" name="username" autofocus autocomplete="off" placeholder="Username" required>
                 </label>
-
+                
                 <label>
                     Password :
                     <input type="password" name="password1" placeholder="Password" required>
                 </label>
-
+                
                 <label>
                     Konfirmasi Password :
                     <input type="password" name="password2" placeholder="Konfirmasi Password" required>
                 </label>
             </div>
-
+            
             <div class="back-link">
-                <button id="submitBtn">Registrasi</button>
+                <button id="registerBtn">Registrasi</button>
             </div>
-
-
+            
+            
         </form>
     </div>
+    <script src="regis.js" defer></script>
 </body>
 
 </html>

@@ -135,7 +135,7 @@
             <input type="submit" value="Login">
         </form>
         <div class="back-link">
-            <a href="register.php" type="checkbox">Register</a>
+            <a href="register.php" >Register</a>
         </div>
     </div>
 
