@@ -11,7 +11,7 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url(https://cdn5.f-cdn.com/contestentries/1372733/27251768/5b4e16f665aaf_thumb900.jpg);
+            background-image: url(../jpg/tree_and_mountain_landscape_3107.jpg);
             background-size: cover;
             background-position: center;
         }
