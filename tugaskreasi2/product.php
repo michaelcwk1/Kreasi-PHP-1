@@ -6,13 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
     <style type="text/css">
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            /* Menambahkan latar belakang putih */
+            height: 100%;
+        }
+
         body {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin: 0;
             padding: 0;
+            background-image: url(../jpg/12.jpg);
+            background-size: cover;
+            background-position: center top;
+            background-repeat: no-repeat;
         }
 
-        .footer {
+        /* .footer {
             background-color: #333;
             color: #fff;
             padding: 0px;
@@ -22,11 +35,11 @@
             left: 0;
             width: calc(100% - -100px);
             box-sizing: border-box;
-        }
+        } */
 
         .sidebar {
-            background-color: #646161;
-            color: #fff;
+            background-color: #e6e6fa;
+            color: #333;
             width: 200px;
             height: 100%;
             position: fixed;
@@ -53,7 +66,7 @@
             position: relative;
             top: 90px;
             left: 35px;
-            color: #fff;
+            color: #333;
             text-decoration: none;
             padding: 10px;
             /* border-bottom: 1px solid #444; */
@@ -61,7 +74,7 @@
         }
 
         .sidebar a:hover {
-            background-color: #444;
+            background-color: #d8bfd8;
         }
 
         .sidebar h3 {
@@ -95,8 +108,8 @@
         }
 
         .header {
-            background-color: #333;
-            color: #fff;
+            background-color: #d8bfd8;
+            color: #333;
             padding: 20px;
             text-align: center;
             position: fixed;
@@ -120,6 +133,10 @@
         .content {
             margin-top: 60px;
             padding: 20px;
+            color: #FFFFFF;
+            /* Putih */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            /* Bayangan teks hitam */
         }
 
         .content h2 {
@@ -132,7 +149,7 @@
             display: grid;
             grid-template-columns: repeat(5, 1fr);
             grid-gap: 0px;
-            background-color: #f8f8f8;
+            background-color: transparent;
             padding: 10px;
             text-align: center;
             margin-bottom: 16px;
@@ -151,35 +168,36 @@
             /* max-height: 180px; */
             /* padding-top: 25%; */
         }
-        .product-item a{
+
+        .product-item a {
             text-decoration: none;
             color: black;
-        }   
+        }
 
         .product-item[id="q"] img {
             max-width: 45%;
             height: auto;
             padding-top: 13px;
             padding-bottom: 10px;
-            margin-bottom: 18px; 
+            margin-bottom: 18px;
 
         }
+
         .product-item[id="f"] img {
             max-width: 50%;
             height: auto;
             padding-top: 16px;
             padding-bottom: 10px;
-            margin-bottom: 20px; 
+            margin-bottom: 20px;
 
         }
+
         .product-item img {
             max-width: 50%;
             height: auto;
-            margin-bottom: 16px; 
+            margin-bottom: 16px;
 
         }
-
-
     </style>
 </head>
 
@@ -203,39 +221,44 @@
         <h2>Ini Halaman Produk</h2>
     </div>
     <div class="product-grid">
-        <div class="product-item" >
-            <a href="detail.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT02w0bziDq1fEXlCEK8A-Uq0cK_KD5B0oKu0epKDqtSA&s"> 
-            <h2>ASUS TUF</h2>
-            <p> CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
-            <p class="price">$20.98</p></a>
+        <div class="product-item">
+            <a href="detail.php"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT02w0bziDq1fEXlCEK8A-Uq0cK_KD5B0oKu0epKDqtSA&s">
+                <h2>ASUS TUF</h2>
+                <p> CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
+                <p class="price">$20.98</p>
+            </a>
             <button>Add to Cart</button>
         </div>
         <div class="product-item">
             <a href="detail.php#2"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCME3t_5aZpAUtFPhCL0wUwa_O0MDmhm-Js7cFB7ouw&s">
-            <h2>ASUS ROG </h2>
-            <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
-            <p class="price">$56.75</p></a>
+                <h2>ASUS ROG </h2>
+                <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
+                <p class="price">$56.75</p>
+            </a>
             <button>Add to Cart</button>
         </div>
         <div class="product-item">
             <a href="detail.php#3"><img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/9/9/7d2c9337-627d-4c6d-affc-8c849381955b.jpg">
-            <h2>LEGION</h2>
-            <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
-            <p class="price">$16.75</p></a>
+                <h2>LEGION</h2>
+                <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
+                <p class="price">$16.75</p>
+            </a>
             <button>Add to Cart</button>
         </div>
         <div class="product-item" id="q">
             <a href="detail.php#4"><img src="https://m.media-amazon.com/images/I/71kBeFDgCkL._AC_UF894,1000_QL80_.jpg">
-            <h2>RAZER</h2>
-            <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
-            <p class="price">$76.75</p></a>
+                <h2>RAZER</h2>
+                <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
+                <p class="price">$76.75</p>
+            </a>
             <button>Add to Cart</button>
         </div>
         <div class="product-item" id="f">
             <a href="detail.php#5"><img src="https://cdn.rri.co.id/berita/1/images/1678146808664-09/1678146808664-09.jpg">
-            <h2>PONGO</h2>
-            <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
-            <p class="price">$46.75</p></a>
+                <h2>PONGO</h2>
+                <p>CPU Intel® Core™ i7 Generasi ke-10 terbaru dan GPU GeForce® GTX 1650Ti</p>
+                <p class="price">$46.75</p>
+            </a>
             <button>Add to Cart</button>
-    </div>
+        </div>
 </body>

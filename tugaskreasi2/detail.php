@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PUSKRIP</title>
     <style type="text/css">
+        html,
         body {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin: 0;
             padding: 0;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: white;
+            /* Menambahkan latar belakang putih jika gambar tidak dimuat */
+            background-image: url(../jpg/5570027.jpg);
+            /* Gambar latar belakang */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
         }
 
-        .footer {
+        /* .footer {
             background-color: #333;
             color: #fff;
             padding: 0px;
@@ -22,11 +31,11 @@
             left: 0;
             width: calc(100% - -100px);
             box-sizing: border-box;
-        }
+        } */
 
         .sidebar {
-            background-color: #646161;
-            color: #fff;
+            background-color: #e6e6fa;
+            color: #333;
             width: 200px;
             height: 100%;
             position: fixed;
@@ -54,7 +63,7 @@
             position: relative;
             top: 90px;
             left: 35px;
-            color: #fff;
+            color: #333;
             text-decoration: none;
             padding: 10px;
             /* border-bottom: 1px solid #444; */
@@ -69,14 +78,14 @@
 
 
         .header {
-            background-color: #333;
-            color: #fff;
+            background-color: #d8bfd8;
+            color: #333;
             padding: 20px;
             text-align: center;
             position: fixed;
             top: 0;
             left: 0;
-            width: calc(100% - -100px);
+            width: calc(101% - -100px);
             box-sizing: border-box;
         }
 
@@ -114,7 +123,8 @@
         }
 
         .sidebar a:hover {
-            background-color: #444;
+            background-color: #d8bfd8;
+
         }
 
         .sidebar h3 {
@@ -151,29 +161,37 @@
             max-width: 23%;
             max-height: auto;
         }
+
         .content[id="4"] img {
             max-width: 23%;
             max-height: auto;
-            padding: 45px 25px 15px 26px;
+            padding: 45px 25px 15px -26px;
         }
 
         .content[id="5"] img {
             max-width: 23%;
             max-height: auto;
-            padding: 69px 25px 70px 26px;
-            margin: -16px 21px -40px 2px;
+            padding: 69px 25px 70px 6px;
+            margin: -46px 21px -40px -10px;
             /* position: absolute;
             top: 0px;
             left: 40px;
             z-index: 1; */
 
         }
-        .content:target {
-        scroll-margin-top: 10zz0px; /
-       
-    }
 
-        
+        .content{
+            color:black;
+            /* Putih */
+            text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
+            /* Bayangan teks hitam */
+            margin-top: 80px;
+            padding: 20px;
+        }
+
+        .content:target {
+            scroll-margin-top: 100px;/
+        }
     </style>
 </head>
 
@@ -201,9 +219,9 @@
             <button type="button" onclick="addToChart()">Add to Chart</button>
         </div>
         <br>
-            <br>
-            <br>
-            <br>
+        <br>
+        <br>
+        <br>
         <div class="content" id="2">
             <h2>Ini Halaman Detail Produk</h2>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgCME3t_5aZpAUtFPhCL0wUwa_O0MDmhm-Js7cFB7ouw&s">
@@ -215,11 +233,11 @@
             <button type="button" onclick="addToChart()">Add to Chart</button>
         </div>
         <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="content" id="3">
             <h2>Ini Halaman Detail Produk</h2>
             <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2022/9/9/7d2c9337-627d-4c6d-affc-8c849381955b.jpg">
@@ -231,11 +249,11 @@
             <button type="button" onclick="addToChart()">Add to Chart</button>
         </div>
         <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="content" id="4">
             <h2>Ini Halaman Detail Produk</h2>
             <img src="https://m.media-amazon.com/images/I/71kBeFDgCkL._AC_UF894,1000_QL80_.jpg">
@@ -247,11 +265,11 @@
             <button type="button" onclick="addToChart()">Add to Chart</button>
         </div>
         <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div class="content" id="5">
             <h2>Ini Halaman Detail Produk</h2>
             <img src="https://cdn.rri.co.id/berita/1/images/1678146808664-09/1678146808664-09.jpg">

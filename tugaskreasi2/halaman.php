@@ -68,7 +68,6 @@
             top: 90px;
             left: 35px;
             color: #333;
-
             text-decoration: none;
             padding: 10px;
             /* border-bottom: 1px solid #444; */
@@ -103,6 +102,10 @@
         }
 
         .content {
+            color: #FFFFFF;
+            /* Putih */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+            /* Bayangan teks hitam */
             margin-top: 80px;
             padding: 20px;
         }
